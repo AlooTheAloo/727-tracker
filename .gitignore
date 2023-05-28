@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+transpiled/
+dist/
+server-files/
+
+727-track-vite/.env

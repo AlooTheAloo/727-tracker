@@ -1,0 +1,2 @@
+{"level":"error","message":"Erreur de connexion à MongoDB! \nMongoServerSelectionError: Server selection timed out after 30000 ms ERROR"}
+{"level":"error","message":"Erreur de connexion à MongoDB! \nMongoServerSelectionError: Server selection timed out after 30000 ms"}

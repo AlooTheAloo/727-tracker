@@ -1,0 +1,13 @@
+import React from "react";
+import ReactDOMServer from "react-dom/server";
+import { BrowserRouter } from "react-router-dom";
+import { StaticRouter } from "react-router-dom/server";
+import { App } from "../App.js";
+
+export function render(url: string) {
+  return ReactDOMServer.renderToString(
+    <StaticRouter location={url}>
+      <App />
+    </StaticRouter>
+  );
+}
